@@ -12,7 +12,7 @@ header{
     text-align: center;
 }
 
-#nav_bar{
+#navbar{
     position: fixed;
     top: 0;
     left:0;
@@ -21,14 +21,13 @@ header{
     min-width: 290px;
     border-right: 4px solid rgba(0, 22, 22, 0.4);
     margin: 0;
+    overflow-y:auto;
 
 
 }
 
-#nav_bar ul{
+#navbar ul{
     padding-left: 0;
-    overflow-x: auto;
-    overflow-y: hidden;
 }
 
 #nav_bar a{
