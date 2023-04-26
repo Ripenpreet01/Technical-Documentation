@@ -70,3 +70,14 @@ code{
     padding: 15px;
     margin:10px;
 }
+
+@media screen and (max-width: 1500px) {
+    #main-doc {
+         position: relative;
+         left:300px;
+         right:0;
+         overflow-y: auto;
+         overflow-x: hidden;
+         text-overflow: inherit;
+    }
+}
